@@ -1561,7 +1561,7 @@ nav .log-out:hover {
 .blog .box h5 {
     padding: 10px;
     font-size: 17px;
-    color: var(--main-color);
+    color: #0000AD;
 }
 .blog .box p {
     line-height: 1.6;
