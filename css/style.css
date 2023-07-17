@@ -89,7 +89,7 @@ a {
 }
 .cart-products .all-products .product h4,
 .hearted-products .all-products .product h4 {
-    color: var(--main-color);
+    color: #0000AD;
     font-size: 20px;
     font-family: cursive;
     padding: 10px;
@@ -1037,7 +1037,7 @@ nav .log-out:hover {
     margin: 10px;
 }
 .deal-day .info h4 {
-    color: #0055B8;
+    color: #0000AD;
     margin: 10px;
     font-size: 20px;
 }
@@ -1052,10 +1052,10 @@ nav .log-out:hover {
     margin: 10px;
 }
 .deal-day .info span:nth-of-type(1) {
-    color: #0055B8;
+    color: #0000AD;
 }
 .deal-day .info span:nth-of-type(2) {
-    color: #AAA;
+    color: #0055B8;
     text-decoration:line-through;
 }
 
@@ -1065,7 +1065,7 @@ nav .log-out:hover {
 }
 .deal-day .info .progress .available,
 .deal-day .info .progress .solid{
-    color: #aaa;
+    color: #0055B8;
     font-size: 17px;
 }
 .deal-day .info .progress .available {
@@ -1226,11 +1226,11 @@ nav .log-out:hover {
     display: block;
     padding: 5px;
     font-size: 17px;
-    color: #0055B8;
+    color: #0000AD;
 }
 
 .new-products .product span:nth-of-type(2) {
-    color: #aaa;
+    color: #fff;
     text-decoration: line-through;
 }
 
@@ -1437,7 +1437,7 @@ nav .log-out:hover {
 }
 .testimonials .character h4 {
     font-size: 20px;
-    color: #0055B8;
+    color: #0000AD;
     margin-bottom: 30px;
 }
 .testimonials .character h5 {
