@@ -1210,7 +1210,7 @@ nav .log-out:hover {
 
 .new-products .product h5 {
     padding: 10px;
-    color: var(--main-color);
+    color: #0000AD;
     font-size: 20px;
     text-transform: uppercase;
 }
