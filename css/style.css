@@ -20,7 +20,7 @@ body {
     margin-bottom: 15px;
     font-size: 30px;
     font-weight: bold;
-    color:#03A9F4;
+    color:#0055B8;
 }
 ul li {
     list-style: none;
@@ -278,12 +278,12 @@ a {
     width: 58%;
 }
 .total p {
-    color: var(--main-color);
+    color: #0055B8;
     font-size: 17px;
     margin: 5px;
 }
 .total span {
-    color: #ff002f;
+    color: #AD0000;
 }
 .total .check-out {
     cursor: pointer;
@@ -593,13 +593,24 @@ form p {
     color: #aaa;
     font-size: 20px;
     font-weight: bold;
-    margin:10px 0;
+    margin:20px 0;
 }
 .profile .name  span ,
 .profile .email span {
     color: var(--main-color);
 }
-
+.profile .update {
+    font-size: 20px;
+    color: #FFF;
+    background-color: var(--main-color);
+    padding: 10px;
+    margin: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.profile .update a {
+    color: #FFF;
+}
 
 
 /* * End Profile Page * */
@@ -838,7 +849,7 @@ nav .log-out:hover {
 }
 .main-products .product .info p {
     font-family:cursive ;
-    color: var(--main-color);
+    color: #0055B8;
     padding: 5px;
 }
 /* * end Main Products * */
@@ -1026,7 +1037,7 @@ nav .log-out:hover {
     margin: 10px;
 }
 .deal-day .info h4 {
-    color: var(--main-color);
+    color: #0055B8;
     margin: 10px;
     font-size: 20px;
 }
@@ -1041,7 +1052,7 @@ nav .log-out:hover {
     margin: 10px;
 }
 .deal-day .info span:nth-of-type(1) {
-    color: var(--main-color);
+    color: #0055B8;
 }
 .deal-day .info span:nth-of-type(2) {
     color: #AAA;
@@ -1080,7 +1091,7 @@ nav .log-out:hover {
     margin-bottom: 30px;
 }
 .deal-day .info .progress .progress-item span {
-    background-color: var(--main-color);
+    background-color: #0055B8;
     height: 12px;
     position: absolute;
     top: -6px;
@@ -1123,7 +1134,7 @@ nav .log-out:hover {
     position: relative;
 }
 .deal-day .info .time div span:nth-child(2) {
-    color: var(--main-color);
+    color: #0055B8;
 }
 .deal-day .info .time div span:nth-child(2)::before {
     content: '';
@@ -1132,7 +1143,7 @@ nav .log-out:hover {
     height: 2px;
     top: -22%;
     left: 25%;
-    background-color: var(--main-color);
+    background-color: #0055B8;
 }
 
 @media (max-width:357px) {
@@ -1215,7 +1226,7 @@ nav .log-out:hover {
     display: block;
     padding: 5px;
     font-size: 17px;
-    color: var(--main-color);
+    color: #0055B8;
 }
 
 .new-products .product span:nth-of-type(2) {
@@ -1426,11 +1437,11 @@ nav .log-out:hover {
 }
 .testimonials .character h4 {
     font-size: 20px;
-    color: var(--main-color);
+    color: #0055B8;
     margin-bottom: 30px;
 }
 .testimonials .character h5 {
-    color: #ff002f;
+    color: #AD0000;
     font-size: 20px;
     font-weight: bold;
 }

@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="E-commerce Website To BY Clothes And Shose And Shoe , profile , dark mood , light mood">
     <title>E-commerce</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -58,7 +59,9 @@
 
       <!--******* start Header  ******** -->
     <section class="container">
-        <div class="media-input"><input type="text" class="search"></div>
+        <label for="">
+            <div class="media-input"><input type="text" class="search"></div>
+        </label>
         <div class="media-header">
             <nav>
                 <div class="berger-icons">
@@ -66,14 +69,14 @@
                     <span></span>
                     <span></span>
                 </div>
-                <div class="user-name">Hello  <span></span>  <a href="./user-profile.html"><i class="fa-regular fa-user"></i></a></div>
+                <div class="user-name">Hello  <span></span>  <a href="./user-profile.html" aria-label="profile image"><i class="fa-regular fa-user"></i></a></div>
                 <div class="log-out">LogOut <i class="fa-solid fa-arrow-right"></i></div>
             </nav>
         </div>
         <header class="header">
             <nav class="nav">
                 <input type="text" class="search">
-                <div class="user-name">Hello  <span></span> <a href="./user-profile.html"> <i class="fa-regular fa-user"></i></a></div>
+                <div class="user-name">Hello  <span></span> <a href="./user-profile.html" aria-label="profile image"> <i class="fa-regular fa-user"></i></a></div>
                 <div class="log-out">LogOut <i class="fa-solid fa-arrow-right"></i></div>
             </nav>
         </header>
@@ -792,24 +795,24 @@
         </div>
         <section id="testimonials" class="testimonials">
             <div class="character active">
-                <img src="./image/pic1.jpg" >
+                <img src="./image/pic1.jpg" alt="">
                 <h4>Ahmed Hassop</h4>
                 <h5>Front-End Developer</h5>
                 <img src="./image/quotes.svg" class="quote">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis esse culpa in aperiam voluptatibus perspiciatis et mollitia, incidunt eum fugiat fugit amet similique. Vitae quas, neque alias eaque consequuntur blanditiis?</p>
             </div>
             <div class="character">
-                <img src="./image/pic4.jpg">
+                <img src="./image/pic4.jpg" alt="">
                 <h4>Osama Elzero</h4>
                 <h5>Great instructor</h5>
-                <img src="./image/quotes.svg" class="quote">
+                <img src="./image/quotes.svg" class="quote" alt="">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis esse culpa in aperiam voluptatibus perspiciatis et mollitia, incidunt eum fugiat fugit amet similique. Vitae quas, neque alias eaque consequuntur blanditiis?</p>
             </div>
             <div class="character">
-                <img src="./image/testimonial-1.jpg">
+                <img src="./image/testimonial-1.jpg" alt="">
                 <h4>ALAN DOE</h4>
                 <h5>CEO & Founder Invision</h5>
-                <img src="./image/quotes.svg" class="quote">
+                <img src="./image/quotes.svg" class="quote" alt="">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis esse culpa in aperiam voluptatibus perspiciatis et mollitia, incidunt eum fugiat fugit amet similique. Vitae quas, neque alias eaque consequuntur blanditiis?</p>
             </div>
 
@@ -886,7 +889,7 @@
             <footer id="contact">
                 <div class="all-links-footer">
                     <ul>
-                        <h3>POPULAR CATEGORIES</h3>
+                        <li>POPULAR CATEGORIES</li>
                         <li>Fashion</li>
                         <li>Electronic</li>
                         <li>Cosmetic</li>
@@ -894,7 +897,7 @@
                         <li>Watches</li>
                     </ul>
                     <ul>
-                        <h3>PRODUCTS</h3>
+                        <li>PRODUCTS</li>
                         <li>Price drop</li>
                         <li>New Products</li>
                         <li>Best seel</li>
@@ -902,7 +905,7 @@
                         <li>SetMap</li>
                     </ul>
                     <ul>
-                        <h3>OUR COMPANY</h3>
+                        <li>OUR COMPANY</li>
                         <li>Delivery</li>
                         <li>Legal Notes</li>
                         <li>Terms And Conditions</li>
@@ -910,7 +913,7 @@
                         <li>Source Payment</li>
                     </ul>
                     <ul>
-                        <h3>SERVICES</h3>
+                        <li>SERVICES</li>
                         <li>Price drop</li>
                         <li>New Products</li>
                         <li>Best seel</li>
@@ -918,7 +921,7 @@
                         <li>SetMap</li>
                     </ul>
                     <ul>
-                        <h3>CONTACT</h3>
+                        <li>CONTACT</li>
                         <li>419 State 414 Rte
                             Beaver Dams, New York(NY),
                             14812, USA</li>
@@ -934,7 +937,7 @@
                         <i class="fa-brands fa-linkedin"></i>
                         <i class="fa-brands fa-github"></i>
                     </div>
-                    <img src="./image/payment.png">
+                    <img src="./image/payment.png" alt="">
                 </div>
             </footer>
         </section>
