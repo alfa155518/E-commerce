@@ -385,7 +385,7 @@ nav {
 }
 header nav input,
 .media-input input{
-    width: 180%;
+    width: 100%;
     height: 20px;
     padding: 10px 15px;
     outline: none;
